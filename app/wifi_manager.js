@@ -45,6 +45,7 @@ module.exports = function() {
     var ifconfig_fields = {
         "hw_addr":         /HWaddr\s([^\s]+)/,
         "inet_addr":       /inet addr:([^\s]+)/,
+        "inet":            /inet ([^\s]+)/,
     },  iwconfig_fields = {
         "ap_addr":         /Access Point:\s([^\s]+)/,
         "ap_ssid":         /ESSID:\"([^\"]+)\"/,
